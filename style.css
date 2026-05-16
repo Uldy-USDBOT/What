@@ -179,3 +179,66 @@ footer {
         font-size: 1.5rem;
     }
 }
+/* About & Contact sections */
+.info-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem 0 2rem;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 2rem;
+}
+
+.about-section, .contact-section {
+    flex: 1;
+    min-width: 250px;
+    background: #fefefe;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s;
+}
+
+.about-section:hover, .contact-section:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.about-section h2, .contact-section h2 {
+    color: #1a4a6f;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.about-section p, .contact-section p {
+    color: #2c3e50;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.contact-details li {
+    margin-bottom: 0.75rem;
+}
+
+.contact-details a {
+    color: #1a4a6f;
+    text-decoration: none;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .info-sections {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
