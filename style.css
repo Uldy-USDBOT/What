@@ -99,10 +99,12 @@ header p {
     text-decoration: underline;
 }
 
-.question-card p {
+.question-card .short-answer {
     color: #495057;
     margin-bottom: 1rem;
     line-height: 1.5;
+    font-size: 0.95rem;
+    font-style: normal;
 }
 
 .question-card .category {
