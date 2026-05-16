@@ -10,7 +10,14 @@ async function loadQuestions() {
     }
 }
 
-// Display all questions as cards on homepage
+// Helper function to get plain text from HTML answer
+function getPlainText(html) {
+    let tempDiv = document.createElement('div');
+    tempDiv.innerHTML = html;
+    return tempDiv.textContent || tempDiv.innerText || '';
+}
+
+// Display all questions as cards with question + short answer
 async function displayAllQuestions() {
     const container = document.getElementById('questionsList');
     if (!container) return;
@@ -23,12 +30,12 @@ async function displayAllQuestions() {
 
     let html = '';
     for (const q of questions) {
-        // Short preview (first 100 chars of question)
-        let preview = q.question.length > 100 ? q.question.substring(0, 100) + '...' : q.question;
+        let plainAnswer = getPlainText(q.answer);
+        let shortAnswer = plainAnswer.length > 130 ? plainAnswer.substring(0, 130) + '...' : plainAnswer;
         html += `
             <div class="question-card">
                 <h3><a href="question.html?id=${q.id}">${q.title}</a></h3>
-                <p>${preview}</p>
+                <p class="short-answer">${shortAnswer}</p>
                 <span class="category">${q.category}</span>
             </div>
         `;
@@ -64,7 +71,14 @@ async function displaySingleQuestion() {
         metaDesc.setAttribute('content', question.question);
     }
 
+    // Update canonical link
+    const canonicalLink = document.getElementById('canonicalLink');
+    if (canonicalLink) {
+        canonicalLink.setAttribute('href', `question.html?id=${question.id}`);
+    }
+
     // Add JSON-LD Schema.org (FAQPage)
+    const plainAnswer = getPlainText(question.answer);
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -73,7 +87,7 @@ async function displaySingleQuestion() {
             "name": question.question,
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": question.answer.replace(/<[^>]*>/g, '') // Plain text for schema
+                "text": plainAnswer
             }
         }]
     };
@@ -90,7 +104,7 @@ async function displaySingleQuestion() {
         </div>
         <hr style="margin: 2rem 0;">
         <p><small>Category: ${question.category} | Published: ${question.date}</small></p>
-        <p><a href="/" style="color: #1a4a6f;">← Back to all questions</a></p>
+        <p><a href="index.html" style="color: #1a4a6f;">← Back to all questions</a></p>
     `;
     container.innerHTML = html;
 }
@@ -106,7 +120,6 @@ async function setupSearch() {
     searchInput.addEventListener('input', (e) => {
         const term = e.target.value.toLowerCase().trim();
         if (term === '') {
-            // Re-render all cards if search cleared
             displayAllQuestions();
             return;
         }
@@ -124,11 +137,12 @@ async function setupSearch() {
 
         let html = '';
         for (const q of filtered) {
-            let preview = q.question.length > 100 ? q.question.substring(0, 100) + '...' : q.question;
+            let plainAnswer = getPlainText(q.answer);
+            let shortAnswer = plainAnswer.length > 130 ? plainAnswer.substring(0, 130) + '...' : plainAnswer;
             html += `
                 <div class="question-card">
                     <h3><a href="question.html?id=${q.id}">${q.title}</a></h3>
-                    <p>${preview}</p>
+                    <p class="short-answer">${shortAnswer}</p>
                     <span class="category">${q.category}</span>
                 </div>
             `;
