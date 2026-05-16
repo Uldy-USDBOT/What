@@ -242,3 +242,115 @@ footer {
         gap: 1.5rem;
     }
 }
+/* Premium Domains Section */
+.domains-section {
+    margin: 3rem 0 2rem;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 2rem;
+}
+
+.domains-section h2 {
+    color: #1a4a6f;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.domains-intro {
+    text-align: center;
+    color: #495057;
+    margin-bottom: 2rem;
+}
+
+.domains-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.8rem;
+    margin: 1.5rem 0;
+}
+
+.domain-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.25s ease;
+    text-align: center;
+    border: 1px solid #eef2f5;
+}
+
+.domain-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+    border-color: #cbdde9;
+}
+
+.domain-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0d2b3e;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.5px;
+}
+
+.domain-price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #1a4a6f;
+    background: #e7f1ff;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    border-radius: 40px;
+    margin: 0.75rem 0;
+}
+
+.domain-card .domain-desc {
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin: 0.75rem 0;
+}
+
+.buy-btn {
+    display: inline-block;
+    background: #1a4a6f;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+    margin-top: 0.5rem;
+}
+
+.buy-btn:hover {
+    background: #0d2b3e;
+}
+
+.domains-note {
+    text-align: center;
+    background: #f1f3f5;
+    padding: 1rem;
+    border-radius: 50px;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.domains-note a {
+    color: #1a4a6f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.domains-note a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .domain-name {
+        font-size: 1.4rem;
+    }
+    .domain-price {
+        font-size: 1.2rem;
+    }
+}
