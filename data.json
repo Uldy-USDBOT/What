@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "what-is-artificial-intelligence",
+      "title": "What is Artificial Intelligence?",
+      "question": "What is Artificial Intelligence (AI)?",
+      "answer": "<p>Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn. It includes subfields like machine learning, natural language processing, and computer vision.</p><p>Examples: self-driving cars, chatbots like ChatGPT, recommendation systems on Netflix/YouTube.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-climate-change",
+      "title": "What is Climate Change?",
+      "question": "What is Climate Change?",
+      "answer": "<p>Climate change refers to long-term shifts in temperatures and weather patterns, mainly caused by human activities—especially burning fossil fuels, which releases greenhouse gases.</p><p>Effects include rising sea levels, extreme weather events, and loss of biodiversity.</p>",
+      "date": "2026-05-16",
+      "category": "Environment"
+    },
+    {
+      "id": "what-is-cryptocurrency",
+      "title": "What is Cryptocurrency?",
+      "question": "What is Cryptocurrency?",
+      "answer": "<p>A cryptocurrency is a digital or virtual currency secured by cryptography, making it nearly impossible to counterfeit. Most cryptocurrencies operate on decentralized networks based on blockchain technology.</p><p>Examples: Bitcoin (BTC), Ethereum (ETH), Binance Coin (BNB).</p>",
+      "date": "2026-05-16",
+      "category": "Finance"
+    },
+    {
+      "id": "what-is-the-metaverse",
+      "title": "What is the Metaverse?",
+      "question": "What is the Metaverse?",
+      "answer": "<p>The metaverse is a collective virtual shared space, created by the convergence of virtually enhanced physical reality and persistent virtual worlds. It includes augmented reality (AR), virtual reality (VR), and 3D avatars.</p><p>Companies like Meta (Facebook), Microsoft, and Epic Games are building metaverse platforms.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-seo",
+      "title": "What is SEO?",
+      "question": "What is SEO?",
+      "answer": "<p>SEO (Search Engine Optimization) is the practice of optimizing websites to rank higher in search engine results pages (SERPs) organically. It involves keyword research, content quality, backlinks, and technical improvements.</p><p>Better SEO = more free traffic from Google, Bing, etc.</p>",
+      "date": "2026-05-16",
+      "category": "Marketing"
+    },
+    {
+      "id": "what-is-a-vpn",
+      "title": "What is a VPN?",
+      "question": "What is a VPN?",
+      "answer": "<p>A VPN (Virtual Private Network) creates a secure, encrypted connection between your device and the internet. It hides your IP address and protects your online privacy, especially on public Wi-Fi.</p><p>Popular VPNs: NordVPN, ExpressVPN, ProtonVPN.</p>",
+      "date": "2026-05-16",
+      "category": "Security"
+    },
+    {
+      "id": "what-is-nft",
+      "title": "What is an NFT?",
+      "question": "What is an NFT?",
+      "answer": "<p>An NFT (Non-Fungible Token) is a unique digital asset stored on a blockchain that represents ownership of a specific item like art, music, or collectibles. Unlike cryptocurrencies, NFTs are not interchangeable.</p><p>Famous NFTs: Beeple's artwork, Bored Ape Yacht Club.</p>",
+      "date": "2026-05-16",
+      "category": "Digital Assets"
+    },
+    {
+      "id": "what-is-machine-learning",
+      "title": "What is Machine Learning?",
+      "question": "What is Machine Learning?",
+      "answer": "<p>Machine Learning (ML) is a subset of AI that enables systems to learn from data without explicit programming. Algorithms identify patterns and make decisions with minimal human intervention.</p><p>Types: supervised, unsupervised, and reinforcement learning.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-the-cloud",
+      "title": "What is the Cloud?",
+      "question": "What is the Cloud?",
+      "answer": "<p>Cloud computing means delivering computing services (servers, storage, databases, software) over the internet ('the cloud') instead of local servers or personal devices.</p><p>Providers: AWS, Google Cloud, Microsoft Azure.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-blockchain",
+      "title": "What is Blockchain?",
+      "question": "What is Blockchain?",
+      "answer": "<p>A blockchain is a distributed, decentralized public ledger that records transactions across many computers so that the record cannot be altered retroactively. It's the technology behind Bitcoin and other cryptocurrencies.</p><p>Key features: transparency, security, immutability.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-remote-work",
+      "title": "What is Remote Work?",
+      "question": "What is Remote Work?",
+      "answer": "<p>Remote work (telecommuting) is a work arrangement where employees do not commute to a central workplace. They work from home, coffee shops, co-working spaces, or any location with an internet connection.</p><p>Benefits: flexibility, no commute, better work-life balance.</p>",
+      "date": "2026-05-16",
+      "category": "Business"
+    },
+    {
+      "id": "what-is-a-robot",
+      "title": "What is a Robot?",
+      "question": "What is a Robot?",
+      "answer": "<p>A robot is a programmable machine that can carry out a series of actions automatically or semi-autonomously. Robots are used in manufacturing, medicine, space exploration, and even household chores (e.g., Roomba).</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-social-media",
+      "title": "What is Social Media?",
+      "question": "What is Social Media?",
+      "answer": "<p>Social media refers to websites and applications that enable users to create and share content or participate in social networking. Examples: Facebook, Instagram, Twitter (X), TikTok, LinkedIn.</p>",
+      "date": "2026-05-16",
+      "category": "Internet"
+    },
+    {
+      "id": "what-is-cybersecurity",
+      "title": "What is Cybersecurity?",
+      "question": "What is Cybersecurity?",
+      "answer": "<p>Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These attacks aim to access, change, or destroy sensitive information, or extort money from users.</p><p>Key areas: network security, application security, disaster recovery.</p>",
+      "date": "2026-05-16",
+      "category": "Security"
+    },
+    {
+      "id": "what-is-python",
+      "title": "What is Python?",
+      "question": "What is Python?",
+      "answer": "<p>Python is a high-level, interpreted programming language known for its simplicity and readability. It's widely used for web development, data science, AI, automation, and scientific computing.</p><p>Frameworks: Django, Flask, TensorFlow.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-html",
+      "title": "What is HTML?",
+      "question": "What is HTML?",
+      "answer": "<p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure of a webpage using elements like headings, paragraphs, links, and images.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-css",
+      "title": "What is CSS?",
+      "question": "What is CSS?",
+      "answer": "<p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls colors, fonts, spacing, layout, and responsive design.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-javascript",
+      "title": "What is JavaScript?",
+      "question": "What is JavaScript?",
+      "answer": "<p>JavaScript is a programming language that enables interactive web pages. It is an essential part of web development alongside HTML and CSS, allowing dynamic content, animations, form validation, and more.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-data-science",
+      "title": "What is Data Science?",
+      "question": "What is Data Science?",
+      "answer": "<p>Data science is an interdisciplinary field that uses scientific methods, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It combines statistics, computer science, and domain expertise.</p>",
+      "date": "2026-05-16",
+      "category": "Data"
+    },
+    {
+      "id": "what-is-ecommerce",
+      "title": "What is E-commerce?",
+      "question": "What is E-commerce?",
+      "answer": "<p>E-commerce (electronic commerce) is the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions. Examples: Amazon, Alibaba, eBay.</p>",
+      "date": "2026-05-16",
+      "category": "Business"
+    },
+    {
+      "id": "what-is-digital-marketing",
+      "title": "What is Digital Marketing?",
+      "question": "What is Digital Marketing?",
+      "answer": "<p>Digital marketing is the promotion of products or brands using digital channels like search engines, social media, email, and websites. It includes SEO, content marketing, PPC, and social media marketing.</p>",
+      "date": "2026-05-16",
+      "category": "Marketing"
+    },
+    {
+      "id": "what-is-a-firewall",
+      "title": "What is a Firewall?",
+      "question": "What is a Firewall?",
+      "answer": "<p>A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on predefined security rules. It acts as a barrier between trusted and untrusted networks.</p>",
+      "date": "2026-05-16",
+      "category": "Security"
+    },
+    {
+      "id": "what-is-big-data",
+      "title": "What is Big Data?",
+      "question": "What is Big Data?",
+      "answer": "<p>Big Data refers to extremely large and complex datasets that cannot be easily managed or processed with traditional data-processing tools. It is characterized by the 3 V's: Volume, Velocity, and Variety.</p>",
+      "date": "2026-05-16",
+      "category": "Data"
+    },
+    {
+      "id": "what-is-iot",
+      "title": "What is IoT?",
+      "question": "What is IoT?",
+      "answer": "<p>The Internet of Things (IoT) is the network of physical objects ('things') embedded with sensors, software, and other technologies to connect and exchange data with other devices and systems over the internet. Examples: smart thermostats, wearables, connected cars.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-a-server",
+      "title": "What is a Server?",
+      "question": "What is a Server?",
+      "answer": "<p>A server is a computer or system that provides resources, data, services, or programs to other computers (clients) over a network. Servers can be dedicated hardware or virtual machines. Examples: web servers, database servers, file servers.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-ai-ethics",
+      "title": "What is AI Ethics?",
+      "question": "What is AI Ethics?",
+      "answer": "<p>AI ethics is a set of moral guidelines and practices to ensure AI systems are developed and used responsibly. Key principles include fairness, transparency, accountability, and avoiding bias or harm.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-chatgpt",
+      "title": "What is ChatGPT?",
+      "question": "What is ChatGPT?",
+      "answer": "<p>ChatGPT is an AI chatbot developed by OpenAI. It uses a large language model (GPT) to generate human-like text based on user prompts. It can answer questions, write essays, code, and more.</p>",
+      "date": "2026-05-16",
+      "category": "AI"
+    },
+    {
+      "id": "what-is-a-domain-name",
+      "title": "What is a Domain Name?",
+      "question": "What is a Domain Name?",
+      "answer": "<p>A domain name is a unique, human-readable address used to access websites on the internet (e.g., google.com, what.ly). It translates to an IP address via DNS (Domain Name System).</p>",
+      "date": "2026-05-16",
+      "category": "Internet"
+    },
+    {
+      "id": "what-is-github",
+      "title": "What is GitHub?",
+      "question": "What is GitHub?",
+      "answer": "<p>GitHub is a cloud-based platform for version control using Git. It allows developers to host, review, and collaborate on code repositories. It's widely used for open-source and private projects.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-saas",
+      "title": "What is SaaS?",
+      "question": "What is SaaS?",
+      "answer": "<p>SaaS (Software as a Service) is a software licensing and delivery model where applications are hosted by a provider and made available to customers over the internet. Examples: Google Workspace, Microsoft 365, Salesforce.</p>",
+      "date": "2026-05-16",
+      "category": "Business"
+    }
+  ]
+}
