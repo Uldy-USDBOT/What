@@ -239,6 +239,166 @@
       "answer": "<p>SaaS (Software as a Service) is a software licensing and delivery model where applications are hosted by a provider and made available to customers over the internet. Examples: Google Workspace, Microsoft 365, Salesforce.</p>",
       "date": "2026-05-16",
       "category": "Business"
+    },
+    {
+      "id": "what-is-quantum-computing",
+      "title": "What is Quantum Computing?",
+      "question": "What is Quantum Computing?",
+      "answer": "<p>Quantum computing is a type of computing that uses quantum-mechanical phenomena, such as superposition and entanglement, to perform operations on data. Unlike classical bits (0 or 1), quantum bits (qubits) can exist in multiple states simultaneously, enabling exponentially faster processing for certain problems.</p><p>Potential applications: cryptography, drug discovery, optimization, and artificial intelligence.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-edge-computing",
+      "title": "What is Edge Computing?",
+      "question": "What is Edge Computing?",
+      "answer": "<p>Edge computing is a distributed computing paradigm that brings computation and data storage closer to the location where it is needed (the 'edge'), rather than relying on a central cloud server. This reduces latency, bandwidth usage, and improves real-time performance.</p><p>Use cases: IoT devices, autonomous vehicles, smart cities.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-web3",
+      "title": "What is Web3?",
+      "question": "What is Web3?",
+      "answer": "<p>Web3 (or Web 3.0) is a decentralized internet built on blockchain technology. It aims to give users ownership of their data, digital assets, and identities, moving away from centralized platforms. Key components include cryptocurrencies, smart contracts, decentralized apps (dApps), and NFTs.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-devops",
+      "title": "What is DevOps?",
+      "question": "What is DevOps?",
+      "answer": "<p>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously. It emphasizes collaboration, automation, monitoring, and rapid iteration.</p><p>Common tools: Jenkins, Docker, Kubernetes, Git, Ansible.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-a-container",
+      "title": "What is a Container?",
+      "question": "What is a Container?",
+      "answer": "<p>A container is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, libraries, and settings. Containers are isolated from each other and the host system, making them portable and consistent across environments. Docker is the most popular container platform.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-kubernetes",
+      "title": "What is Kubernetes?",
+      "question": "What is Kubernetes?",
+      "answer": "<p>Kubernetes (K8s) is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It groups containers into pods, manages load balancing, storage, and networking, and ensures desired state is maintained.</p><p>Originally developed by Google, now maintained by CNCF.</p>",
+      "date": "2026-05-16",
+      "category": "Technology"
+    },
+    {
+      "id": "what-is-rust-programming",
+      "title": "What is Rust?",
+      "question": "What is Rust programming language?",
+      "answer": "<p>Rust is a systems programming language focused on safety, speed, and concurrency. It eliminates memory bugs (like dangling pointers and data races) at compile time without needing a garbage collector. Rust is used for operating systems, game engines, web browsers (parts of Firefox), and blockchain infrastructure.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-typescript",
+      "title": "What is TypeScript?",
+      "question": "What is TypeScript?",
+      "answer": "<p>TypeScript is a strongly typed superset of JavaScript developed by Microsoft. It adds static typing, interfaces, generics, and other features to JavaScript, which are compiled down to plain JavaScript. TypeScript helps catch errors early and improves code maintainability for large applications.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-graphql",
+      "title": "What is GraphQL?",
+      "question": "What is GraphQL?",
+      "answer": "<p>GraphQL is a query language and runtime for APIs developed by Facebook. It allows clients to request exactly the data they need (no over-fetching or under-fetching), and enables multiple resources in a single request. It provides a strongly typed schema and introspection capabilities.</p>",
+      "date": "2026-05-16",
+      "category": "Programming"
+    },
+    {
+      "id": "what-is-a-database",
+      "title": "What is a Database?",
+      "question": "What is a Database?",
+      "answer": "<p>A database is an organized collection of structured data stored electronically on a computer system. Databases are managed by a Database Management System (DBMS). Types include relational (SQL, e.g., MySQL, PostgreSQL) and non-relational (NoSQL, e.g., MongoDB, Cassandra).</p>",
+      "date": "2026-05-16",
+      "category": "Data"
+    },
+    {
+      "id": "what-is-sql",
+      "title": "What is SQL?",
+      "question": "What is SQL?",
+      "answer": "<p>SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases. With SQL, you can query, insert, update, and delete data, as well as create and modify database schemas. Common commands: SELECT, INSERT, UPDATE, DELETE, CREATE TABLE.</p>",
+      "date": "2026-05-16",
+      "category": "Data"
+    },
+    {
+      "id": "what-is-a-firewall-detailed",
+      "title": "What is a Firewall (detailed)?",
+      "question": "What is a firewall in networking?",
+      "answer": "<p>A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on predetermined security rules. It establishes a barrier between a trusted internal network and untrusted external networks (like the internet). Firewalls can be hardware, software, or cloud-based.</p>",
+      "date": "2026-05-16",
+      "category": "Security"
+    },
+    {
+      "id": "what-is-zero-trust",
+      "title": "What is Zero Trust Security?",
+      "question": "What is Zero Trust?",
+      "answer": "<p>Zero Trust is a security model that assumes no user or device should be trusted by default, even if inside the network perimeter. It requires continuous verification of identity, device health, and access context before granting access to resources. Key principles: least privilege, micro-segmentation, multi-factor authentication.</p>",
+      "date": "2026-05-16",
+      "category": "Security"
+    },
+    {
+      "id": "what-is-2fa",
+      "title": "What is Two-Factor Authentication (2FA)?",
+      "question": "What is 2FA?",
+      "answer": "<p>Two-Factor Authentication (2FA) is an extra layer of security that requires two different types of credentials to verify a user's identity. Typically, it combines something you know (password) with something you have (a code from an authenticator app or SMS) or something you are (biometric). 2FA reduces the risk of account takeover.</p>",
+      "date": "2026-05-16",
+      "category": "Security"
+    },
+    {
+      "id": "what-is-phishing",
+      "title": "What is Phishing?",
+      "question": "What is Phishing?",
+      "answer": "<p>Phishing is a type of cyber attack where attackers impersonate legitimate organizations (banks, social media, etc.) via email, text, or fake websites to trick individuals into revealing sensitive information such as passwords, credit card numbers, or personal data. Always check URLs and avoid clicking suspicious links.</p>",
+      "date": "2026-05-16",
+      "category": "Security"
+    },
+    {
+      "id": "what-is-sustainable-energy",
+      "title": "What is Sustainable Energy?",
+      "question": "What is Sustainable Energy?",
+      "answer": "<p>Sustainable energy comes from renewable sources that naturally replenish and do not deplete over time, such as solar, wind, hydroelectric, geothermal, and biomass. Unlike fossil fuels, these sources produce minimal greenhouse gas emissions and are key to combating climate change.</p>",
+      "date": "2026-05-16",
+      "category": "Environment"
+    },
+    {
+      "id": "what-is-biodiversity",
+      "title": "What is Biodiversity?",
+      "question": "What is Biodiversity?",
+      "answer": "<p>Biodiversity refers to the variety of life on Earth at all levels, from genes to ecosystems. It includes the diversity of species, their genetic variations, and the ecological complexes they form. High biodiversity supports ecosystem resilience, food security, and human well-being.</p>",
+      "date": "2026-05-16",
+      "category": "Environment"
+    },
+    {
+      "id": "what-is-gdp",
+      "title": "What is Gross Domestic Product (GDP)?",
+      "question": "What is GDP?",
+      "answer": "<p>Gross Domestic Product (GDP) is the total monetary value of all finished goods and services produced within a country's borders in a specific time period (usually quarterly or yearly). It is a primary indicator of a country's economic health and can be measured using production, expenditure, or income approach.</p>",
+      "date": "2026-05-16",
+      "category": "Finance"
+    },
+    {
+      "id": "what-is-inflation",
+      "title": "What is Inflation?",
+      "question": "What is Inflation?",
+      "answer": "<p>Inflation is the general increase in prices of goods and services over time, which reduces the purchasing power of money. It is measured by the Consumer Price Index (CPI). Moderate inflation (2-3%) is normal in healthy economies, but hyperinflation can destroy savings and economic stability.</p>",
+      "date": "2026-05-16",
+      "category": "Finance"
+    },
+    {
+      "id": "what-is-stock-market",
+      "title": "What is the Stock Market?",
+      "question": "What is the Stock Market?",
+      "answer": "<p>The stock market is a collection of markets and exchanges where public company stocks (shares of ownership) are issued, bought, and sold. It serves as a platform for companies to raise capital and for investors to gain profits. Major stock exchanges include NYSE, NASDAQ, London Stock Exchange, and Tokyo Stock Exchange.</p>",
+      "date": "2026-05-16",
+      "category": "Finance"
     }
   ]
 }
