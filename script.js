@@ -1,4 +1,4 @@
-// Load questions from data.json
+// ========== LOAD QUESTIONS FROM data.json ==========
 async function loadQuestions() {
     try {
         const response = await fetch('data.json');
@@ -151,10 +151,47 @@ async function setupSearch() {
     });
 }
 
-// Initialize based on current page
+// ========== PREMIUM DOMAINS FOR SALE (UPDATED LIST) ==========
+const domainsForSale = [
+    { name: "what.ly", price: "$10,000", desc: "Premium question‑based domain – perfect for Q&A or knowledge platform" },
+    { name: "downloader.ly", price: "$4,990", desc: "Ideal for video/social media downloader tools" },
+    { name: "haste.ly", price: "$3,000", desc: "Short, fast, memorable – great for productivity or SaaS" },
+    { name: "twig.ly", price: "$2,800", desc: "Nature‑friendly, unique brand for eco or dev tools" },
+    { name: "digitally.ly", price: "$1,990", desc: "Modern digital agency, marketing, or tech startup" }
+];
+
+// Function to display domains (only on homepage)
+function displayDomains() {
+    const container = document.getElementById('domainsList');
+    if (!container) return;
+
+    if (domainsForSale.length === 0) {
+        container.innerHTML = '<div class="loading">No domains available at the moment. Check back soon!</div>';
+        return;
+    }
+
+    let html = '';
+    for (const domain of domainsForSale) {
+        html += `
+            <div class="domain-card">
+                <div class="domain-name">${domain.name}</div>
+                <div class="domain-price">${domain.price}</div>
+                <div class="domain-desc">${domain.desc}</div>
+                <a href="https://wa.me/218918883918?text=I'm%20interested%20in%20${domain.name}" target="_blank" rel="noopener noreferrer" class="buy-btn">Inquire →</a>
+            </div>
+        `;
+    }
+    container.innerHTML = html;
+}
+
+// ========== INITIALIZE BASED ON CURRENT PAGE ==========
 if (window.location.pathname.includes('question.html')) {
     displaySingleQuestion();
 } else {
     displayAllQuestions();
     setupSearch();
+    // Check if domains container exists on homepage
+    if (document.getElementById('domainsList')) {
+        displayDomains();
+    }
 }
