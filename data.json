@@ -401,4 +401,43 @@
       "category": "Finance"
     }
   ]
+}{
+  "id": "what-is-juneteenth",
+  "title": "What is Juneteenth?",
+  "question": "What is Juneteenth?",
+  "answer": "<p>Juneteenth is a federal holiday in the United States commemorating the emancipation of enslaved African Americans. It is celebrated on June 19th and marks a pivotal moment in American history.</p>",
+  "date": "2026-05-16",
+  "category": "History"
+},
+{
+  "id": "what-is-section-230",
+  "title": "What is Section 230?",
+  "question": "What is Section 230?",
+  "answer": "<p>Section 230 is a landmark piece of internet legislation in the United States that provides immunity for online platforms from liability for third-party content, allowing the modern internet to host user-generated content freely.</p>",
+  "date": "2026-05-16",
+  "category": "Law"
+},
+{
+  "id": "what-is-rsv",
+  "title": "What is RSV?",
+  "question": "What is RSV?",
+  "answer": "<p>RSV (Respiratory Syncytial Virus) is a common respiratory virus that usually causes mild, cold-like symptoms, but can be serious for infants and older adults.</p>",
+  "date": "2026-05-16",
+  "category": "Health"
+},
+{
+  "id": "what-is-lupus",
+  "title": "What is Lupus?",
+  "question": "What is Lupus?",
+  "answer": "<p>Lupus is a chronic autoimmune disease where the body's immune system becomes hyperactive and attacks healthy tissue, causing inflammation, swelling, and damage to joints and organs.</p>",
+  "date": "2026-05-16",
+  "category": "Health"
+},
+{
+  "id": "what-is-dynamic-pricing",
+  "title": "What is Dynamic Pricing?",
+  "question": "What is dynamic pricing?",
+  "answer": "<p>Dynamic pricing is a flexible pricing strategy where businesses adjust the prices of their products or services in real-time based on current market demands, algorithms, and consumer behavior.</p>",
+  "date": "2026-05-16",
+  "category": "Economics"
 }
