@@ -399,9 +399,8 @@
       "answer": "<p>The stock market is a collection of markets and exchanges where public company stocks (shares of ownership) are issued, bought, and sold. It serves as a platform for companies to raise capital and for investors to gain profits. Major stock exchanges include NYSE, NASDAQ, London Stock Exchange, and Tokyo Stock Exchange.</p>",
       "date": "2026-05-16",
       "category": "Finance"
-    }
-  ]
-}{
+    }, 
+    {
   "id": "what-is-juneteenth",
   "title": "What is Juneteenth?",
   "question": "What is Juneteenth?",
@@ -440,4 +439,7 @@
   "answer": "<p>Dynamic pricing is a flexible pricing strategy where businesses adjust the prices of their products or services in real-time based on current market demands, algorithms, and consumer behavior.</p>",
   "date": "2026-05-16",
   "category": "Economics"
-}
+}, 
+  ] 
+{
+
