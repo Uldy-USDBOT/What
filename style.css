@@ -44,70 +44,106 @@ header p {
     font-size: 1.1rem;
 }
 
-.google-search-container {
-    max-width: 700px;
-    margin: 1.5rem auto 0;
+.search-box {
+    margin-top: 1.5rem;
 }
 
-/* تخصيص مظهر محرك بحث Google */
-.gsc-control-cse {
-    background: transparent !important;
-    border: none !important;
-    padding: 0 !important;
+#searchInput {
+    width: 100%;
+    max-width: 550px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s;
 }
 
-.gsc-input-box, .gsc-search-button {
-    border-radius: 50px !important;
-    border-color: #ccc !important;
-}
-
-.gsc-input-box {
-    min-height: 44px;
-}
-
-.gsib_a {
-    padding: 5px 10px !important;
-}
-
-.gsc-search-button-v2 {
-    background-color: #ff8c00 !important;
-    border-color: #ff8c00 !important;
-    padding: 8px 20px !important;
-    border-radius: 50px !important;
-    font-weight: bold;
-}
-
-.gsc-search-button-v2:hover {
-    background-color: #e07b00 !important;
-}
-
-.gsc-results-wrapper-overlay {
-    border-radius: 16px !important;
-}
-
-.gsc-tabsArea {
-    border-color: #ddd !important;
-}
-
-.gsc-results .gsc-cursor-box .gsc-cursor-page {
-    background-color: #f1f3f5;
-    border-radius: 8px;
-    margin: 0 2px;
-    padding: 8px 12px;
-}
-
-.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-    background-color: #1a4a6f;
-    color: white;
-}
-
-/* إزالة علامة "Powered by Google" التجارية */
-.gsc-branding, .gcsc-branding {
-    display: none !important;
+#searchInput:focus {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .questions-grid {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.8rem;
+    margin: 2.5rem 0;
+}
+
+.question-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.question-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.question-card h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+}
+
+.question-card h3 a {
+    color: #1a4a6f;
+    text-decoration: none;
+}
+
+.question-card h3 a:hover {
+    text-decoration: underline;
+}
+
+.question-card .short-answer {
+    color: #495057;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    font-style: normal;
+}
+
+.question-card .category {
+    display: inline-block;
+    background: #e7f1ff;
+    color: #1a4a6f;
+    padding: 0.25rem 0.9rem;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#questionDetail {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+#questionDetail h1 {
+    margin-bottom: 1rem;
+    color: #0d2b3e;
+    font-size: 2rem;
+}
+
+#questionDetail .answer {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #2c3e50;
+}
+
+#questionDetail .answer p {
+    margin-bottom: 1rem;
+}
+
+#questionDetail .answer ul, #questionDetail .answer ol {
+    margin: 1rem 0 1rem 2rem;
 }
 
 .loading {
@@ -287,10 +323,23 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .questions-grid {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+    
     header h1 a {
         font-size: 1.8rem;
     }
     
+    #questionDetail {
+        padding: 1.2rem;
+    }
+    
+    #questionDetail h1 {
+        font-size: 1.5rem;
+    }
+
     .info-sections {
         flex-direction: column;
         gap: 1.5rem;
