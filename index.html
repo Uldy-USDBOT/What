@@ -4,61 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>what.ly – Answers to What Questions</title>
-    <meta name="description" content="Clear and direct answers to the most asked 'What is...?' questions. 55+ topics: AI, crypto, climate change, SEO, VPN, and more.">
+    <meta name="description" content="Clear answers to your 'What is...?' questions.">
     <link rel="stylesheet" href="style.css">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
-    <!-- Google Custom Search -->
+    <!-- Google Custom Search Script (سيتم تحميله مرة واحدة فقط) -->
     <script async src="https://cse.google.com/cse.js?cx=4310a6ed313c341dc"></script>
 </head>
 <body>
     <header>
         <div class="container">
             <h1><a href="index.html">what.ly</a></h1>
-            <p>Clear answers to your "What is...?" questions</p>
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Search for a question... (e.g., AI, crypto, SEO)">
-            </div>
-            <!-- Google Custom Search Engine -->
-            <div class="google-search">
+            <p>Find clear answers with Google</p>
+            <!-- حاوية محرك بحث Google -->
+            <div class="google-search-container">
                 <div class="gcse-search"></div>
             </div>
         </div>
     </header>
 
     <main class="container">
-        <div id="questionsList" class="questions-grid">
-            <div class="loading">Loading questions...</div>
-        </div>
-
         <!-- About & Contact Sections -->
         <div class="info-sections">
             <div class="about-section">
                 <h2>About what.ly</h2>
-                <p>We provide clear, factual, and direct answers to the most searched "What is...?" questions on the internet. Our mission is to help you understand complex topics in seconds – no fluff, just the information you need.</p>
-                <p>From technology and finance to environment and programming, we cover a wide range of subjects with concise, SEO-friendly answers.</p>
-                <p><strong>Looking for low‑sulfur marine fuel?</strong> Visit our partner: <a href="https://vlsfo.com" target="_blank" rel="noopener noreferrer">VLSFO.COM</a> – reliable info on Very Low Sulfur Fuel Oil for the shipping industry.</p>
+                <p>We provide clear, factual, and direct answers. Use the Google search box above to find what you need.</p>
+                <p><strong>Looking for low‑sulfur marine fuel?</strong> Visit <a href="https://vlsfo.com" target="_blank">VLSFO.COM</a>.</p>
             </div>
             <div class="contact-section">
                 <h2>Contact Us</h2>
-                <p>Have a question suggestion or feedback? Reach out to us:</p>
+                <p>Have feedback or a question?</p>
                 <ul class="contact-details">
-                    <li><strong>WhatsApp:</strong> <a href="https://wa.me/218918883918" target="_blank" rel="noopener noreferrer">+218 91 888 3918</a></li>
+                    <li><strong>WhatsApp:</strong> <a href="https://wa.me/218918883918">+218 91 888 3918</a></li>
                     <li><strong>Email:</strong> <a href="mailto:offcetech@gmail.com">offcetech@gmail.com</a></li>
                 </ul>
-                <p>We typically respond within 24 hours.</p>
             </div>
         </div>
 
-        <!-- Premium Domains for Sale -->
+        <!-- Premium Domains -->
         <div class="domains-section">
             <h2>Premium Domains for Sale</h2>
-            <p class="domains-intro">Acquire memorable, brandable domain names. Perfect for startups, investors, or businesses.</p>
-            <div class="domains-grid" id="domainsList">
-                <div class="loading">Loading domains...</div>
-            </div>
-            <div class="domains-note">
-                <p>💡 Interested in any domain? <a href="https://wa.me/218918883918" target="_blank">Contact us on WhatsApp</a> or email <a href="mailto:offcetech@gmail.com">offcetech@gmail.com</a> for a quick deal.</p>
-            </div>
+            <div class="domains-grid" id="domainsList"></div>
+            <div class="domains-note">💡 Contact us for any domain.</div>
         </div>
     </main>
 
