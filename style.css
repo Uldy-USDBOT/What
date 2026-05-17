@@ -64,6 +64,31 @@ header p {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+/* Google Custom Search styling */
+.google-search {
+    max-width: 550px;
+    margin: 1rem auto 0;
+}
+
+.gcse-search {
+    width: 100%;
+}
+
+/* Make Google search results blend with our design */
+.gsc-control-cse {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.gsc-input-box, .gsc-search-button {
+    border-radius: 50px !important;
+}
+
+.gsc-results-wrapper-overlay {
+    border-radius: 16px !important;
+}
+
 .questions-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -161,24 +186,6 @@ footer {
     color: #495057;
 }
 
-@media (max-width: 768px) {
-    .questions-grid {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-    }
-    
-    header h1 a {
-        font-size: 1.8rem;
-    }
-    
-    #questionDetail {
-        padding: 1.2rem;
-    }
-    
-    #questionDetail h1 {
-        font-size: 1.5rem;
-    }
-}
 /* About & Contact sections */
 .info-sections {
     display: flex;
@@ -236,12 +243,6 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-    .info-sections {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-}
 /* Premium Domains Section */
 .domains-section {
     margin: 3rem 0 2rem;
@@ -347,6 +348,28 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .questions-grid {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+    
+    header h1 a {
+        font-size: 1.8rem;
+    }
+    
+    #questionDetail {
+        padding: 1.2rem;
+    }
+    
+    #questionDetail h1 {
+        font-size: 1.5rem;
+    }
+
+    .info-sections {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
     .domain-name {
         font-size: 1.4rem;
     }
