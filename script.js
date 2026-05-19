@@ -1,3 +1,27 @@
+// ========== DARK MODE ==========
+function initTheme() {
+    const toggle = document.getElementById('themeToggle');
+    const thumb  = document.getElementById('toggleThumb');
+    if (!toggle) return;
+
+    // Load saved preference, default to light
+    const saved = localStorage.getItem('theme') || 'light';
+    applyTheme(saved);
+
+    toggle.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme') || 'light';
+        const next = current === 'dark' ? 'light' : 'dark';
+        applyTheme(next);
+        localStorage.setItem('theme', next);
+    });
+
+    function applyTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        if (thumb) thumb.textContent = theme === 'dark' ? '🌙' : '☀️';
+    }
+}
+initTheme();
+
 // ========== LOAD QUESTIONS FROM data.json ==========
 async function loadQuestions() {
     try {
