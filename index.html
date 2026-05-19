@@ -9,58 +9,110 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
 </head>
 <body>
+
+    <!-- HEADER -->
     <header>
         <div class="container">
-            <h1><a href="index.html">what.ly</a></h1>
-            <p>Clear answers to your "What is...?" questions</p>
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Search for a question... (e.g., AI, crypto, SEO)">
+            <div class="header-inner">
+                <div class="header-topbar">
+                    <span class="header-tag">Knowledge Base · EST. 2026</span>
+                    <span class="header-live">
+                        <span class="live-dot"></span>
+                        LIVE · 55+ ANSWERS
+                    </span>
+                </div>
+                <h1><a href="index.html">what.ly</a></h1>
+                <p class="header-subtitle">Clear answers to your "What is...?" questions</p>
+                <div class="search-box">
+                    <span class="search-icon">⌕</span>
+                    <input type="text" id="searchInput" placeholder="Search topics — AI, crypto, SEO, climate...">
+                </div>
+                <div class="search-meta" id="searchMeta"></div>
             </div>
         </div>
     </header>
 
-    <main class="container">
-        <div id="questionsList" class="questions-grid">
-            <div class="loading">Loading questions...</div>
-        </div>
+    <!-- MAIN -->
+    <main>
+        <div class="container">
 
-        <!-- About & Contact Sections -->
-        <div class="info-sections">
-            <div class="about-section">
-                <h2>About what.ly</h2>
-                <p>We provide clear, factual, and direct answers to the most searched "What is...?" questions on the internet. Our mission is to help you understand complex topics in seconds – no fluff, just the information you need.</p>
-                <p>From technology and finance to environment and programming, we cover a wide range of subjects with concise, SEO-friendly answers.</p>
-                <p><strong>Looking for low‑sulfur marine fuel?</strong> Visit our partner: <a href="https://vlsfo.com" target="_blank" rel="noopener noreferrer">VLSFO.COM</a> – reliable info on Very Low Sulfur Fuel Oil for the shipping industry.</p>
+            <!-- Category filters -->
+            <div class="section-divider" style="margin-top:2.5rem;">
+                <span class="section-label">Browse by category</span>
             </div>
-            <div class="contact-section">
-                <h2>Contact Us</h2>
-                <p>Have a question suggestion or feedback? Reach out to us:</p>
-                <ul class="contact-details">
-                    <li><strong>WhatsApp:</strong> <a href="https://wa.me/218918883918" target="_blank" rel="noopener noreferrer">+218 91 888 3918</a></li>
-                    <li><strong>Email:</strong> <a href="mailto:offcetech@gmail.com">offcetech@gmail.com</a></li>
-                </ul>
-                <p>We typically respond within 24 hours.</p>
-            </div>
-        </div>
+            <div class="category-filters" id="categoryFilters"></div>
 
-        <!-- Premium Domains for Sale -->
-        <div class="domains-section">
-            <h2>Premium Domains for Sale</h2>
-            <p class="domains-intro">Acquire memorable, brandable domain names. Perfect for startups, investors, or businesses.</p>
-            <div class="domains-grid" id="domainsList">
-                <div class="loading">Loading domains...</div>
+            <!-- Questions grid -->
+            <div id="questionsList" class="questions-grid">
+                <div class="loading">Loading questions...</div>
             </div>
-            <div class="domains-note">
-                <p>💡 Interested in any domain? <a href="https://wa.me/218918883918" target="_blank">Contact us on WhatsApp</a> or email <a href="mailto:offcetech@gmail.com">offcetech@gmail.com</a> for a quick deal.</p>
+
+            <!-- About & Contact -->
+            <div class="info-sections">
+                <div class="about-section">
+                    <h2>About what.ly</h2>
+                    <p>We provide clear, factual, and direct answers to the most searched "What is...?" questions on the internet. Our mission is to help you understand complex topics in seconds – no fluff, just the information you need.</p>
+                    <p>From technology and finance to environment and programming, we cover a wide range of subjects with concise, SEO-friendly answers.</p>
+                    <p><strong>Looking for low‑sulfur marine fuel?</strong> Visit our partner: <a href="https://vlsfo.com" target="_blank" rel="noopener noreferrer">VLSFO.COM</a> – reliable info on Very Low Sulfur Fuel Oil for the shipping industry.</p>
+                </div>
+                <div class="contact-section">
+                    <h2>Contact Us</h2>
+                    <p>Have a question suggestion or feedback? Reach out to us:</p>
+                    <ul class="contact-details">
+                        <li>
+                            <strong>WhatsApp:</strong>
+                            <a href="https://wa.me/218918883918" target="_blank" rel="noopener noreferrer">+218 91 888 3918</a>
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            <a href="mailto:offcetech@gmail.com">offcetech@gmail.com</a>
+                        </li>
+                    </ul>
+                    <p>We typically respond within 24 hours.</p>
+                </div>
             </div>
-        </div>
+
+            <!-- Premium Domains -->
+            <div class="domains-section">
+                <h2>Premium Domains for Sale</h2>
+                <p class="domains-intro">Acquire memorable, brandable domain names. Perfect for startups, investors, or businesses.</p>
+                <div class="domains-grid" id="domainsList">
+                    <div class="loading" style="color:rgba(255,255,255,0.3)">Loading domains...</div>
+                </div>
+                <div class="domains-note">
+                    💡 Interested in any domain? <a href="https://wa.me/218918883918" target="_blank">Contact us on WhatsApp</a> or email <a href="mailto:offcetech@gmail.com">offcetech@gmail.com</a> for a quick deal.
+                </div>
+            </div>
+
+        </div><!-- /.container -->
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <div class="container">
-            <p>© 2026 what.ly – Answers for every curiosity</p>
+            <div class="footer-inner">
+                <span class="footer-brand">what.ly</span>
+                <span class="footer-copy">© 2026 what.ly – Answers for every curiosity</span>
+            </div>
         </div>
     </footer>
+
+    <!-- POPUP MODAL -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-card" id="popupCard">
+            <button class="popup-close" id="popupClose">✕</button>
+            <span class="popup-category" id="popupCategory"></span>
+            <h2 class="popup-title" id="popupTitle"></h2>
+            <div class="popup-answer" id="popupAnswer"></div>
+            <a href="#" class="popup-link" id="popupLink">Read full page →</a>
+        </div>
+    </div>
+
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top" id="scrollTop" title="Back to top">↑</button>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast"></div>
 
     <script src="script.js"></script>
 </body>
