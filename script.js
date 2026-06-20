@@ -265,6 +265,7 @@ const domainsForSale = [
     { name: "downloader.ly",  price: "$",  desc: "Ideal for video/social media downloader tools" },
     { name: "haste.ly",       price: "$",  desc: "Short, fast, memorable – great for productivity or SaaS" },
     { name: "twig.ly",        price: "$",  desc: "Nature‑friendly, unique brand for eco or dev tools" },
+      { name: "vlog.ly",        price: "$",  desc: "Nature-friendly, Featured Personal Video" },
     { name: "digitally.ly",   price: "$",  desc: "Modern digital agency, marketing, or tech startup" }
 ];
 
