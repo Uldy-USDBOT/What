@@ -261,11 +261,11 @@ async function setupSearch() {
 
 // ========== PREMIUM DOMAINS ==========
 const domainsForSale = [
-    { name: "what.ly",        price: "$10,000", desc: "Premium question‑based domain – perfect for Q&A or knowledge platform" },
-    { name: "downloader.ly",  price: "$4,990",  desc: "Ideal for video/social media downloader tools" },
-    { name: "haste.ly",       price: "$3,000",  desc: "Short, fast, memorable – great for productivity or SaaS" },
-    { name: "twig.ly",        price: "$2,800",  desc: "Nature‑friendly, unique brand for eco or dev tools" },
-    { name: "digitally.ly",   price: "$1,990",  desc: "Modern digital agency, marketing, or tech startup" }
+    { name: "what.ly",        price: "$", desc: "Premium question‑based domain – perfect for Q&A or knowledge platform" },
+    { name: "downloader.ly",  price: "$",  desc: "Ideal for video/social media downloader tools" },
+    { name: "haste.ly",       price: "$",  desc: "Short, fast, memorable – great for productivity or SaaS" },
+    { name: "twig.ly",        price: "$",  desc: "Nature‑friendly, unique brand for eco or dev tools" },
+    { name: "digitally.ly",   price: "$",  desc: "Modern digital agency, marketing, or tech startup" }
 ];
 
 function displayDomains() {
