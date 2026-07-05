@@ -1,0 +1,737 @@
+{
+  "questions": [
+    {
+      "id": "what-is-artificial-intelligence",
+      "title": "What is Artificial Intelligence?",
+      "question": "What is Artificial Intelligence (AI)?",
+      "answer": "<p>Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn. It includes subfields like machine learning, natural language processing, and computer vision.</p><p>Examples: self-driving cars, chatbots like ChatGPT, recommendation systems on Netflix/YouTube.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": true,
+      "keywords": [
+        "what is AI",
+        "artificial intelligence definition",
+        "AI meaning"
+      ]
+    },
+    {
+      "id": "what-is-climate-change",
+      "title": "What is Climate Change?",
+      "question": "What is Climate Change?",
+      "answer": "<p>Climate change refers to long-term shifts in temperatures and weather patterns, mainly caused by human activities—especially burning fossil fuels, which releases greenhouse gases.</p><p>Effects include rising sea levels, extreme weather events, and loss of biodiversity.</p>",
+      "date": "2026-05-16",
+      "category": "Environment",
+      "featured": false,
+      "keywords": [
+        "what is climate change",
+        "climate change definition",
+        "global warming meaning"
+      ]
+    },
+    {
+      "id": "what-is-cryptocurrency",
+      "title": "What is Cryptocurrency?",
+      "question": "What is Cryptocurrency?",
+      "answer": "<p>A cryptocurrency is a digital or virtual currency secured by cryptography, making it nearly impossible to counterfeit. Most cryptocurrencies operate on decentralized networks based on blockchain technology.</p><p>Examples: Bitcoin (BTC), Ethereum (ETH), Binance Coin (BNB).</p>",
+      "date": "2026-05-16",
+      "category": "Finance",
+      "featured": true,
+      "keywords": [
+        "what is cryptocurrency",
+        "crypto definition",
+        "digital currency meaning"
+      ]
+    },
+    {
+      "id": "what-is-the-metaverse",
+      "title": "What is the Metaverse?",
+      "question": "What is the Metaverse?",
+      "answer": "<p>The metaverse is a collective virtual shared space, created by the convergence of virtually enhanced physical reality and persistent virtual worlds. It includes augmented reality (AR), virtual reality (VR), and 3D avatars.</p><p>Companies like Meta (Facebook), Microsoft, and Epic Games are building metaverse platforms.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is the metaverse",
+        "metaverse definition",
+        "metaverse meaning"
+      ]
+    },
+    {
+      "id": "what-is-seo",
+      "title": "What is SEO?",
+      "question": "What is SEO?",
+      "answer": "<p>SEO (Search Engine Optimization) is the practice of optimizing websites to rank higher in search engine results pages (SERPs) organically. It involves keyword research, content quality, backlinks, and technical improvements.</p><p>Better SEO = more free traffic from Google, Bing, etc.</p>",
+      "date": "2026-05-16",
+      "category": "Marketing",
+      "featured": true,
+      "keywords": [
+        "what is SEO",
+        "search engine optimization definition",
+        "SEO meaning"
+      ]
+    },
+    {
+      "id": "what-is-a-vpn",
+      "title": "What is a VPN?",
+      "question": "What is a VPN?",
+      "answer": "<p>A VPN (Virtual Private Network) creates a secure, encrypted connection between your device and the internet. It hides your IP address and protects your online privacy, especially on public Wi-Fi.</p><p>Popular VPNs: NordVPN, ExpressVPN, ProtonVPN.</p>",
+      "date": "2026-05-16",
+      "category": "Security",
+      "featured": true,
+      "keywords": [
+        "what is a VPN",
+        "VPN definition",
+        "virtual private network meaning"
+      ]
+    },
+    {
+      "id": "what-is-nft",
+      "title": "What is an NFT?",
+      "question": "What is an NFT?",
+      "answer": "<p>An NFT (Non-Fungible Token) is a unique digital asset stored on a blockchain that represents ownership of a specific item like art, music, or collectibles. Unlike cryptocurrencies, NFTs are not interchangeable.</p><p>Famous NFTs: Beeple's artwork, Bored Ape Yacht Club.</p>",
+      "date": "2026-05-16",
+      "category": "Digital Assets",
+      "featured": true,
+      "keywords": [
+        "what is an NFT",
+        "NFT meaning",
+        "non-fungible token definition"
+      ]
+    },
+    {
+      "id": "what-is-machine-learning",
+      "title": "What is Machine Learning?",
+      "question": "What is Machine Learning?",
+      "answer": "<p>Machine Learning (ML) is a subset of AI that enables systems to learn from data without explicit programming. Algorithms identify patterns and make decisions with minimal human intervention.</p><p>Types: supervised, unsupervised, and reinforcement learning.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": true,
+      "keywords": [
+        "what is machine learning",
+        "machine learning definition",
+        "ML meaning"
+      ]
+    },
+    {
+      "id": "what-is-the-cloud",
+      "title": "What is the Cloud?",
+      "question": "What is the Cloud?",
+      "answer": "<p>Cloud computing means delivering computing services (servers, storage, databases, software) over the internet ('the cloud') instead of local servers or personal devices.</p><p>Providers: AWS, Google Cloud, Microsoft Azure.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is cloud computing",
+        "the cloud definition",
+        "cloud computing meaning"
+      ]
+    },
+    {
+      "id": "what-is-blockchain",
+      "title": "What is Blockchain?",
+      "question": "What is Blockchain?",
+      "answer": "<p>A blockchain is a distributed, decentralized public ledger that records transactions across many computers so that the record cannot be altered retroactively. It's the technology behind Bitcoin and other cryptocurrencies.</p><p>Key features: transparency, security, immutability.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": true,
+      "keywords": [
+        "what is blockchain",
+        "blockchain definition",
+        "blockchain technology explained"
+      ]
+    },
+    {
+      "id": "what-is-remote-work",
+      "title": "What is Remote Work?",
+      "question": "What is Remote Work?",
+      "answer": "<p>Remote work (telecommuting) is a work arrangement where employees do not commute to a central workplace. They work from home, coffee shops, co-working spaces, or any location with an internet connection.</p><p>Benefits: flexibility, no commute, better work-life balance.</p>",
+      "date": "2026-05-16",
+      "category": "Business",
+      "featured": false,
+      "keywords": [
+        "what is remote work",
+        "remote work definition",
+        "telecommuting meaning"
+      ]
+    },
+    {
+      "id": "what-is-a-robot",
+      "title": "What is a Robot?",
+      "question": "What is a Robot?",
+      "answer": "<p>A robot is a programmable machine that can carry out a series of actions automatically or semi-autonomously. Robots are used in manufacturing, medicine, space exploration, and even household chores (e.g., Roomba).</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is a robot",
+        "robot definition",
+        "robotics meaning"
+      ]
+    },
+    {
+      "id": "what-is-social-media",
+      "title": "What is Social Media?",
+      "question": "What is Social Media?",
+      "answer": "<p>Social media refers to websites and applications that enable users to create and share content or participate in social networking. Examples: Facebook, Instagram, Twitter (X), TikTok, LinkedIn.</p>",
+      "date": "2026-05-16",
+      "category": "Internet",
+      "featured": false,
+      "keywords": [
+        "what is social media",
+        "social media definition"
+      ]
+    },
+    {
+      "id": "what-is-cybersecurity",
+      "title": "What is Cybersecurity?",
+      "question": "What is Cybersecurity?",
+      "answer": "<p>Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These attacks aim to access, change, or destroy sensitive information, or extort money from users.</p><p>Key areas: network security, application security, disaster recovery.</p>",
+      "date": "2026-05-16",
+      "category": "Security",
+      "featured": true,
+      "keywords": [
+        "what is cybersecurity",
+        "cybersecurity definition",
+        "cyber security meaning"
+      ]
+    },
+    {
+      "id": "what-is-python",
+      "title": "What is Python?",
+      "question": "What is Python?",
+      "answer": "<p>Python is a high-level, interpreted programming language known for its simplicity and readability. It's widely used for web development, data science, AI, automation, and scientific computing.</p><p>Frameworks: Django, Flask, TensorFlow.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is Python",
+        "Python programming language",
+        "Python definition"
+      ]
+    },
+    {
+      "id": "what-is-html",
+      "title": "What is HTML?",
+      "question": "What is HTML?",
+      "answer": "<p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure of a webpage using elements like headings, paragraphs, links, and images.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is HTML",
+        "HTML definition",
+        "HTML meaning"
+      ]
+    },
+    {
+      "id": "what-is-css",
+      "title": "What is CSS?",
+      "question": "What is CSS?",
+      "answer": "<p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls colors, fonts, spacing, layout, and responsive design.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is CSS",
+        "CSS definition",
+        "CSS meaning"
+      ]
+    },
+    {
+      "id": "what-is-javascript",
+      "title": "What is JavaScript?",
+      "question": "What is JavaScript?",
+      "answer": "<p>JavaScript is a programming language that enables interactive web pages. It is an essential part of web development alongside HTML and CSS, allowing dynamic content, animations, form validation, and more.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is JavaScript",
+        "JavaScript definition",
+        "JS meaning"
+      ]
+    },
+    {
+      "id": "what-is-data-science",
+      "title": "What is Data Science?",
+      "question": "What is Data Science?",
+      "answer": "<p>Data science is an interdisciplinary field that uses scientific methods, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It combines statistics, computer science, and domain expertise.</p>",
+      "date": "2026-05-16",
+      "category": "Data",
+      "featured": false,
+      "keywords": [
+        "what is data science",
+        "data science definition"
+      ]
+    },
+    {
+      "id": "what-is-ecommerce",
+      "title": "What is E-commerce?",
+      "question": "What is E-commerce?",
+      "answer": "<p>E-commerce (electronic commerce) is the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions. Examples: Amazon, Alibaba, eBay.</p>",
+      "date": "2026-05-16",
+      "category": "Business",
+      "featured": false,
+      "keywords": [
+        "what is e-commerce",
+        "ecommerce definition",
+        "online business meaning"
+      ]
+    },
+    {
+      "id": "what-is-digital-marketing",
+      "title": "What is Digital Marketing?",
+      "question": "What is Digital Marketing?",
+      "answer": "<p>Digital marketing is the promotion of products or brands using digital channels like search engines, social media, email, and websites. It includes SEO, content marketing, PPC, and social media marketing.</p>",
+      "date": "2026-05-16",
+      "category": "Marketing",
+      "featured": false,
+      "keywords": [
+        "what is digital marketing",
+        "digital marketing definition"
+      ]
+    },
+    {
+      "id": "what-is-a-firewall",
+      "title": "What is a Firewall?",
+      "question": "What is a Firewall in Networking?",
+      "answer": "<p>A firewall is a network security device or software that monitors and filters incoming and outgoing traffic based on predetermined security rules. It establishes a barrier between a trusted internal network and untrusted external networks, such as the internet.</p><p>Firewalls can be hardware, software, or cloud-based, and are a foundational layer of any cybersecurity strategy.</p>",
+      "date": "2026-05-16",
+      "category": "Security",
+      "featured": false,
+      "keywords": [
+        "what is a firewall",
+        "firewall definition",
+        "network firewall meaning"
+      ]
+    },
+    {
+      "id": "what-is-big-data",
+      "title": "What is Big Data?",
+      "question": "What is Big Data?",
+      "answer": "<p>Big Data refers to extremely large and complex datasets that cannot be easily managed or processed with traditional data-processing tools. It is characterized by the 3 V's: Volume, Velocity, and Variety.</p>",
+      "date": "2026-05-16",
+      "category": "Data",
+      "featured": false,
+      "keywords": [
+        "what is big data",
+        "big data definition"
+      ]
+    },
+    {
+      "id": "what-is-iot",
+      "title": "What is IoT?",
+      "question": "What is IoT?",
+      "answer": "<p>The Internet of Things (IoT) is the network of physical objects ('things') embedded with sensors, software, and other technologies to connect and exchange data with other devices and systems over the internet. Examples: smart thermostats, wearables, connected cars.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is IoT",
+        "Internet of Things definition",
+        "IoT meaning"
+      ]
+    },
+    {
+      "id": "what-is-a-server",
+      "title": "What is a Server?",
+      "question": "What is a Server?",
+      "answer": "<p>A server is a computer or system that provides resources, data, services, or programs to other computers (clients) over a network. Servers can be dedicated hardware or virtual machines. Examples: web servers, database servers, file servers.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is a server",
+        "server definition"
+      ]
+    },
+    {
+      "id": "what-is-ai-ethics",
+      "title": "What is AI Ethics?",
+      "question": "What is AI Ethics?",
+      "answer": "<p>AI ethics is a set of moral guidelines and practices to ensure AI systems are developed and used responsibly. Key principles include fairness, transparency, accountability, and avoiding bias or harm.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is AI ethics",
+        "AI ethics definition",
+        "ethical AI meaning"
+      ]
+    },
+    {
+      "id": "what-is-chatgpt",
+      "title": "What is ChatGPT?",
+      "question": "What is ChatGPT?",
+      "answer": "<p>ChatGPT is an AI chatbot developed by OpenAI. It uses a large language model (GPT) to generate human-like text based on user prompts. It can answer questions, write essays, code, and more.</p>",
+      "date": "2026-05-16",
+      "category": "AI",
+      "featured": true,
+      "keywords": [
+        "what is ChatGPT",
+        "ChatGPT definition",
+        "ChatGPT explained"
+      ]
+    },
+    {
+      "id": "what-is-a-domain-name",
+      "title": "What is a Domain Name?",
+      "question": "What is a Domain Name?",
+      "answer": "<p>A domain name is a unique, human-readable address used to access websites on the internet (e.g., google.com, what.ly). It translates to an IP address via DNS (Domain Name System).</p>",
+      "date": "2026-05-16",
+      "category": "Internet",
+      "featured": false,
+      "keywords": [
+        "what is a domain name",
+        "domain name definition"
+      ]
+    },
+    {
+      "id": "what-is-github",
+      "title": "What is GitHub?",
+      "question": "What is GitHub?",
+      "answer": "<p>GitHub is a cloud-based platform for version control using Git. It allows developers to host, review, and collaborate on code repositories. It's widely used for open-source and private projects.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is GitHub",
+        "GitHub definition",
+        "GitHub meaning"
+      ]
+    },
+    {
+      "id": "what-is-saas",
+      "title": "What is SaaS?",
+      "question": "What is SaaS?",
+      "answer": "<p>SaaS (Software as a Service) is a software licensing and delivery model where applications are hosted by a provider and made available to customers over the internet. Examples: Google Workspace, Microsoft 365, Salesforce.</p>",
+      "date": "2026-05-16",
+      "category": "Business",
+      "featured": false,
+      "keywords": [
+        "what is SaaS",
+        "SaaS definition",
+        "software as a service meaning"
+      ]
+    },
+    {
+      "id": "what-is-quantum-computing",
+      "title": "What is Quantum Computing?",
+      "question": "What is Quantum Computing?",
+      "answer": "<p>Quantum computing is a type of computing that uses quantum-mechanical phenomena, such as superposition and entanglement, to perform operations on data. Unlike classical bits (0 or 1), quantum bits (qubits) can exist in multiple states simultaneously, enabling exponentially faster processing for certain problems.</p><p>Potential applications: cryptography, drug discovery, optimization, and artificial intelligence.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is quantum computing",
+        "quantum computing definition"
+      ]
+    },
+    {
+      "id": "what-is-edge-computing",
+      "title": "What is Edge Computing?",
+      "question": "What is Edge Computing?",
+      "answer": "<p>Edge computing is a distributed computing paradigm that brings computation and data storage closer to the location where it is needed (the 'edge'), rather than relying on a central cloud server. This reduces latency, bandwidth usage, and improves real-time performance.</p><p>Use cases: IoT devices, autonomous vehicles, smart cities.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is edge computing",
+        "edge computing definition"
+      ]
+    },
+    {
+      "id": "what-is-web3",
+      "title": "What is Web3?",
+      "question": "What is Web3?",
+      "answer": "<p>Web3 (or Web 3.0) is a decentralized internet built on blockchain technology. It aims to give users ownership of their data, digital assets, and identities, moving away from centralized platforms. Key components include cryptocurrencies, smart contracts, decentralized apps (dApps), and NFTs.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": true,
+      "keywords": [
+        "what is Web3",
+        "Web3 definition",
+        "Web3 explained"
+      ]
+    },
+    {
+      "id": "what-is-devops",
+      "title": "What is DevOps?",
+      "question": "What is DevOps?",
+      "answer": "<p>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously. It emphasizes collaboration, automation, monitoring, and rapid iteration.</p><p>Common tools: Jenkins, Docker, Kubernetes, Git, Ansible.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is DevOps",
+        "DevOps definition",
+        "DevOps meaning"
+      ]
+    },
+    {
+      "id": "what-is-a-container",
+      "title": "What is a Container?",
+      "question": "What is a Container?",
+      "answer": "<p>A container is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, libraries, and settings. Containers are isolated from each other and the host system, making them portable and consistent across environments. Docker is the most popular container platform.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is a container",
+        "containerization definition"
+      ]
+    },
+    {
+      "id": "what-is-kubernetes",
+      "title": "What is Kubernetes?",
+      "question": "What is Kubernetes?",
+      "answer": "<p>Kubernetes (K8s) is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It groups containers into pods, manages load balancing, storage, and networking, and ensures desired state is maintained.</p><p>Originally developed by Google, now maintained by CNCF.</p>",
+      "date": "2026-05-16",
+      "category": "Technology",
+      "featured": false,
+      "keywords": [
+        "what is Kubernetes",
+        "Kubernetes definition",
+        "K8s meaning"
+      ]
+    },
+    {
+      "id": "what-is-rust-programming",
+      "title": "What is Rust?",
+      "question": "What is Rust programming language?",
+      "answer": "<p>Rust is a systems programming language focused on safety, speed, and concurrency. It eliminates memory bugs (like dangling pointers and data races) at compile time without needing a garbage collector. Rust is used for operating systems, game engines, web browsers (parts of Firefox), and blockchain infrastructure.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is Rust",
+        "Rust programming language"
+      ]
+    },
+    {
+      "id": "what-is-typescript",
+      "title": "What is TypeScript?",
+      "question": "What is TypeScript?",
+      "answer": "<p>TypeScript is a strongly typed superset of JavaScript developed by Microsoft. It adds static typing, interfaces, generics, and other features to JavaScript, which are compiled down to plain JavaScript. TypeScript helps catch errors early and improves code maintainability for large applications.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is TypeScript",
+        "TypeScript definition"
+      ]
+    },
+    {
+      "id": "what-is-graphql",
+      "title": "What is GraphQL?",
+      "question": "What is GraphQL?",
+      "answer": "<p>GraphQL is a query language and runtime for APIs developed by Facebook. It allows clients to request exactly the data they need (no over-fetching or under-fetching), and enables multiple resources in a single request. It provides a strongly typed schema and introspection capabilities.</p>",
+      "date": "2026-05-16",
+      "category": "Programming",
+      "featured": false,
+      "keywords": [
+        "what is GraphQL",
+        "GraphQL definition"
+      ]
+    },
+    {
+      "id": "what-is-a-database",
+      "title": "What is a Database?",
+      "question": "What is a Database?",
+      "answer": "<p>A database is an organized collection of structured data stored electronically on a computer system. Databases are managed by a Database Management System (DBMS). Types include relational (SQL, e.g., MySQL, PostgreSQL) and non-relational (NoSQL, e.g., MongoDB, Cassandra).</p>",
+      "date": "2026-05-16",
+      "category": "Data",
+      "featured": false,
+      "keywords": [
+        "what is a database",
+        "database definition"
+      ]
+    },
+    {
+      "id": "what-is-sql",
+      "title": "What is SQL?",
+      "question": "What is SQL?",
+      "answer": "<p>SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases. With SQL, you can query, insert, update, and delete data, as well as create and modify database schemas. Common commands: SELECT, INSERT, UPDATE, DELETE, CREATE TABLE.</p>",
+      "date": "2026-05-16",
+      "category": "Data",
+      "featured": false,
+      "keywords": [
+        "what is SQL",
+        "SQL definition",
+        "SQL meaning"
+      ]
+    },
+    {
+      "id": "what-is-zero-trust",
+      "title": "What is Zero Trust Security?",
+      "question": "What is Zero Trust?",
+      "answer": "<p>Zero Trust is a security model that assumes no user or device should be trusted by default, even if inside the network perimeter. It requires continuous verification of identity, device health, and access context before granting access to resources. Key principles: least privilege, micro-segmentation, multi-factor authentication.</p>",
+      "date": "2026-05-16",
+      "category": "Security",
+      "featured": false,
+      "keywords": [
+        "what is zero trust",
+        "zero trust security definition"
+      ]
+    },
+    {
+      "id": "what-is-2fa",
+      "title": "What is Two-Factor Authentication (2FA)?",
+      "question": "What is 2FA?",
+      "answer": "<p>Two-Factor Authentication (2FA) is an extra layer of security that requires two different types of credentials to verify a user's identity. Typically, it combines something you know (password) with something you have (a code from an authenticator app or SMS) or something you are (biometric). 2FA reduces the risk of account takeover.</p>",
+      "date": "2026-05-16",
+      "category": "Security",
+      "featured": false,
+      "keywords": [
+        "what is 2FA",
+        "two-factor authentication definition"
+      ]
+    },
+    {
+      "id": "what-is-phishing",
+      "title": "What is Phishing?",
+      "question": "What is Phishing?",
+      "answer": "<p>Phishing is a type of cyber attack where attackers impersonate legitimate organizations (banks, social media, etc.) via email, text, or fake websites to trick individuals into revealing sensitive information such as passwords, credit card numbers, or personal data. Always check URLs and avoid clicking suspicious links.</p>",
+      "date": "2026-05-16",
+      "category": "Security",
+      "featured": false,
+      "keywords": [
+        "what is phishing",
+        "phishing definition",
+        "phishing attack meaning"
+      ]
+    },
+    {
+      "id": "what-is-sustainable-energy",
+      "title": "What is Sustainable Energy?",
+      "question": "What is Sustainable Energy?",
+      "answer": "<p>Sustainable energy comes from renewable sources that naturally replenish and do not deplete over time, such as solar, wind, hydroelectric, geothermal, and biomass. Unlike fossil fuels, these sources produce minimal greenhouse gas emissions and are key to combating climate change.</p>",
+      "date": "2026-05-16",
+      "category": "Environment",
+      "featured": false,
+      "keywords": [
+        "what is sustainable energy",
+        "renewable energy definition"
+      ]
+    },
+    {
+      "id": "what-is-biodiversity",
+      "title": "What is Biodiversity?",
+      "question": "What is Biodiversity?",
+      "answer": "<p>Biodiversity refers to the variety of life on Earth at all levels, from genes to ecosystems. It includes the diversity of species, their genetic variations, and the ecological complexes they form. High biodiversity supports ecosystem resilience, food security, and human well-being.</p>",
+      "date": "2026-05-16",
+      "category": "Environment",
+      "featured": false,
+      "keywords": [
+        "what is biodiversity",
+        "biodiversity definition"
+      ]
+    },
+    {
+      "id": "what-is-gdp",
+      "title": "What is Gross Domestic Product (GDP)?",
+      "question": "What is GDP?",
+      "answer": "<p>Gross Domestic Product (GDP) is the total monetary value of all finished goods and services produced within a country's borders in a specific time period (usually quarterly or yearly). It is a primary indicator of a country's economic health and can be measured using production, expenditure, or income approach.</p>",
+      "date": "2026-05-16",
+      "category": "Finance",
+      "featured": false,
+      "keywords": [
+        "what is GDP",
+        "gross domestic product definition"
+      ]
+    },
+    {
+      "id": "what-is-inflation",
+      "title": "What is Inflation?",
+      "question": "What is Inflation?",
+      "answer": "<p>Inflation is the general increase in prices of goods and services over time, which reduces the purchasing power of money. It is measured by the Consumer Price Index (CPI). Moderate inflation (2-3%) is normal in healthy economies, but hyperinflation can destroy savings and economic stability.</p>",
+      "date": "2026-05-16",
+      "category": "Finance",
+      "featured": false,
+      "keywords": [
+        "what is inflation",
+        "inflation definition",
+        "inflation meaning"
+      ]
+    },
+    {
+      "id": "what-is-stock-market",
+      "title": "What is the Stock Market?",
+      "question": "What is the Stock Market?",
+      "answer": "<p>The stock market is a collection of markets and exchanges where public company stocks (shares of ownership) are issued, bought, and sold. It serves as a platform for companies to raise capital and for investors to gain profits. Major stock exchanges include NYSE, NASDAQ, London Stock Exchange, and Tokyo Stock Exchange.</p>",
+      "date": "2026-05-16",
+      "category": "Finance",
+      "featured": false,
+      "keywords": [
+        "what is the stock market",
+        "stock market definition"
+      ]
+    },
+    {
+      "id": "what-is-juneteenth",
+      "title": "What is Juneteenth?",
+      "question": "What is Juneteenth?",
+      "answer": "<p>Juneteenth is a federal holiday in the United States commemorating the emancipation of enslaved African Americans. It is celebrated on June 19th and marks a pivotal moment in American history.</p>",
+      "date": "2026-05-16",
+      "category": "History",
+      "featured": false,
+      "keywords": [
+        "what is Juneteenth",
+        "Juneteenth meaning"
+      ]
+    },
+    {
+      "id": "what-is-section-230",
+      "title": "What is Section 230?",
+      "question": "What is Section 230?",
+      "answer": "<p>Section 230 is a landmark piece of internet legislation in the United States that provides immunity for online platforms from liability for third-party content, allowing the modern internet to host user-generated content freely.</p>",
+      "date": "2026-05-16",
+      "category": "Law",
+      "featured": false,
+      "keywords": [
+        "what is Section 230",
+        "Section 230 definition"
+      ]
+    },
+    {
+      "id": "what-is-rsv",
+      "title": "What is RSV?",
+      "question": "What is RSV?",
+      "answer": "<p>RSV (Respiratory Syncytial Virus) is a common respiratory virus that usually causes mild, cold-like symptoms, but can be serious for infants and older adults.</p>",
+      "date": "2026-05-16",
+      "category": "Health",
+      "featured": false,
+      "keywords": [
+        "what is RSV",
+        "RSV definition",
+        "respiratory syncytial virus meaning"
+      ]
+    },
+    {
+      "id": "what-is-lupus",
+      "title": "What is Lupus?",
+      "question": "What is Lupus?",
+      "answer": "<p>Lupus is a chronic autoimmune disease where the body's immune system becomes hyperactive and attacks healthy tissue, causing inflammation, swelling, and damage to joints and organs.</p>",
+      "date": "2026-05-16",
+      "category": "Health",
+      "featured": false,
+      "keywords": [
+        "what is lupus",
+        "lupus definition"
+      ]
+    },
+    {
+      "id": "what-is-dynamic-pricing",
+      "title": "What is Dynamic Pricing?",
+      "question": "What is dynamic pricing?",
+      "answer": "<p>Dynamic pricing is a flexible pricing strategy where businesses adjust the prices of their products or services in real-time based on current market demands, algorithms, and consumer behavior.</p>",
+      "date": "2026-05-16",
+      "category": "Economics",
+      "featured": false,
+      "keywords": [
+        "what is dynamic pricing",
+        "dynamic pricing definition"
+      ]
+    }
+  ]
+}
